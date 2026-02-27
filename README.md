@@ -32,27 +32,15 @@ Frontend: HTML, CSS
 
 Language: Python
 
-📂 Project Structure
-spamDetection/
-│
-├── spamDetection/        # Main Django project folder
-│
-├── detector/             # App folder
-│   ├── models.py
-│   ├── views.py
-│   ├── forms.py
-│   ├── templates/
-│
-├── db.sqlite3
-├── manage.py
-└── README.md
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
 git clone https://github.com/priyankabhendale/spam-detector.git
 cd spam-detector
+
 2️⃣ Create virtual environment (Recommended)
 python -m venv venv
 venv\Scripts\activate   # Windows
+
 3️⃣ Install dependencies
 pip install -r requirements.txt
 
